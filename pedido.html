@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> CONFIRMANDO PEDIDO: </title>
+
+    <link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <br><br>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+    
+        <header class="bg-dark" style=color:blue>
+            <h1 class="text-white text-center p-3" style=color:blue> CARRITO DE COMPRAS </h1>
+        </header>
+        
+        <br><br>
+
+        <p> <a class="link" href="catalogo.html" span style="color:red"> <b> VISITA NUESTRO CATALOGO DE PRODUCTOS </b> </a> </p> 
+        
+        <br><br>
+
+        <p> <B> CONFIRMANDO TU PEDIDO: </B> </p>
+
+        <br><br>
+
+        <main>
+
+            <hr><hr>
+
+            <form action="">
+
+                <label for="nit"> <b> NIT: </b> </label>
+                <input type="number" id="nit" name="nit" class="form-control" autocomplete="off">
+
+                <label for="nombre"> <b>  NOMBRE: </b> </label>
+                <input type="text" id="nombre" name="nombre" class="form-control" autocomplete="off">
+
+                <label for="direccion"> <b> DIRECION DE ENTRAGA: </b> </label>
+                <input type="text" id="direccion" name="direccion" class="form-control" autocomplete="off">
+                
+                <input type="button" value = "Guardar" style="color: black;" class="btn btn-success mt-3" onclick="guardarRegistro ()" style="color:blue" hidden>
+                
+
+            </form>
+        
+            <hr><hr>
+        
+            <table class="table table-bordered table-striped">
+
+                <thead>
+                    
+                    <tr>
+                        <th>CODIGO</th>
+                        <th>DESCRIPCION</th>
+                        <th>CANTIDAD</th>
+                        <th>PRECIO</th>
+                        <th>TOTAL</th>      
+                    </tr>
+                    
+                </thead>
+
+                <tbody id="detalle">
+                    
+                </tbody>
+
+            </table>
+
+            <br>
+
+            <label for="total"> <b> TOTAL DE SU PEDIDO: </b> </label>
+            <label id="total" name="total"></label>
+
+        </main>
+
+        <br><br>
+        
+        <button onclick="realizarPedido();"> <b> CONFIRMAR PEDIDO </b> </button>
+
+        <br><br>
+
+        <footer>
+
+        </footer>
+
+    </div>
+    
+    <br>
+
+    <div class="container">
+
+        <p> <a class="link" href="index.html" span style="color:red"> <b> Pagina Principal </b>  </a> </p> 
+        
+</body>
+
+<script src="scrip.js"></script>
+<script type="text/javascript">extraerGalletasDelCarrito();</script>
+
+</html>
+
+

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CATALOGO DE PRODUCTOS</title>
+  
+</head>
+
+<body>
+    
+    </style>
+
+</head>
+
+<body>
+
+<p> <STRong> "CATOLOGO DE PRODUCTOS MAS COTIZADOS" <STRong> </p> 
+
+    <br>
+
+    <table>
+        
+        <tr>
+            <th>CODIGO:</th>
+            <th>DESCRIPCION:</th>
+            <th>PRECIO:</th>
+            <th>IMAGEN:</th>
+            <th></th>  
+        </tr>
+       
+        <tr> 
+            <td> R.1 </td>
+            <td>TOMATE</td>
+            <td>2.00 </td>
+            <td> <img src="IMAGENES/img1.jpg" width="70" alt=""> </td> 
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+             <td> <button onclick="guardarRegistroDelCarrito('R.1','TOMATE','IMAGENES/img1.jpg','2.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>    
+        </tr>
+
+        <tr> 
+            <td> R.2 </td>
+            <td>AGUACATE</td>
+            <td>5.00 </td>
+            <td> <img src="IMAGENES/img2.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.2','AGUACATE','IMAGENES/img2.jpg','5.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+
+
+        <tr> 
+            <td> R.3 </td>
+            <td>PAPA</td>
+            <td>1.75</td>
+            <td> <img src="IMAGENES/img3.jpeg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.3','PAPA','IMAGENES/img3.jpeg','1.75');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+
+        <tr> 
+            <td> R.4 </td>
+            <td>AGUACATE</td>
+            <td>5.00 </td>
+            <td> <img src="IMAGENES/img4.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.4','AGUACATE','IMAGENES/img4.jpg','5.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+
+        <tr> 
+            <td> R.5 </td>
+            <td>EJOTE</td>
+            <td>3.25 </td>
+            <td> <img src="IMAGENES/img5.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.5','EJOTE','IMAGENES/img5.jpg','3.25');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+
+        <tr> 
+            <td> R.6 </td>
+            <td>CILANTRO</td>
+            <td>2.50 </td>
+            <td> <img src="IMAGENES/img6.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.6','CILANTRO','IMAGENES/img6.jpg','2.50');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+
+        <tr> 
+            <td> R.7 </td>
+            <td>BROCOLI</td>
+            <td>4.00 </td>
+            <td> <img src="IMAGENES/img7.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.7','BROCOLI','IMAGENES/img7.jpg','4.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+
+        <tr> 
+            <td> R.8 </td>
+            <td>LECHUGA</td>
+            <td>3.75</td>
+            <td> <img src="IMAGENES/img8.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.8','LECHUGA','IMAGENES/img8.jpg','3.75');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+        <tr> 
+            <td> R.9 </td>
+            <td>GUISQUIL</td>
+            <td>3.00 </td>
+            <td> <img src="IMAGENES/img9.png" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.9','GUISQUIL','IMAGENES/img9.jpg','3.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+        <tr> 
+            <td> R.10 </td>
+            <td>CALABAZA</td>
+            <td>8.00 </td>
+            <td> <img src="IMAGENES/img10.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.10','CALABAZA','IMAGENES/img10.jpg','8.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+        <tr> 
+            <td> R.11 </td>
+            <td>APIO</td>
+            <td>3.00 </td>
+            <td> <img src="IMAGENES/img11.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.11','APIO','IMAGENES/img11.jpg','3.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+        <tr> 
+            <td> R.12 </td>
+            <td>CEBOLLA BLANCA</td>
+            <td>3.00 </td>
+            <td> <img src="IMAGENES/img12.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.12','CEBOLLA BLANCA','IMAGENES/img12.jpg','3.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+        <tr> 
+            <td> R.13 </td>
+            <td>CEBOLLA MORADA</td>
+            <td>3.00 </td>
+            <td> <img src="IMAGENES/img13.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.13','CEBOLLA MORADA','IMAGENES/img13.jpg','3.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+
+        <tr> 
+            <td> R.14 </td>
+            <td>HIERBA BUENA</td>
+            <td>4.25</td>
+            <td> <img src="IMAGENES/img14.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.14','HIERBA BUENA','IMAGENES/img14.jpg','4.25');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+       
+        <tr> 
+            <td> R.15 </td>
+            <td>ESPARRAGO</td>
+            <td>6.50</td>
+            <td> <img src="IMAGENES/img15.jpeg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.15','ESPARRAGO','IMAGENES/img15.jpg','6.50');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.16 </td>
+            <td>PEPINO</td>
+            <td>3.25</td>
+            <td> <img src="IMAGENES/img16.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.16','PEPINO','IMAGENES/img16.jpg','3.25');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.17 </td>
+            <td>CHILE PIMIENTO</td>
+            <td>3.00 </td>
+            <td> <img src="IMAGENES/img17.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.17','CHILE PIMIENTO','IMAGENES/img17.jpg','3.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.18</td>
+            <td>RABANO</td>
+            <td>2.00 </td>
+            <td> <img src="IMAGENES/img18.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.18','RABANO','IMAGENES/img18.jpg','2.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.19 </td>
+            <td>REMOLACHA</td>
+            <td>4.00 </td>
+            <td> <img src="IMAGENES/img19.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.19','REMOLACHA','IMAGENES/img19.jpg','4.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.20 </td>
+            <td>COLIFLOR</td>
+            <td>4.75 </td>
+            <td> <img src="IMAGENES/img20.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.20','COLIFLOR','IMAGENES/img20.jpg','4.75');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr>
+        
+        <tr> 
+            <td> R.21 </td>
+            <td>SANDIA</td>
+            <td>10</td>
+            <td> <img src="IMAGENES/img21.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.21','SANDIA','IMAGENES/img21.jpg','10.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.22 </td>
+            <td>PERA</td>
+            <td>3.00 </td>
+            <td> <img src="IMAGENES/img22.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.22','PERA','IMAGENES/img22.jpg','3.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.23 </td>
+            <td>NARANJA</td>
+            <td>2.00 </td>
+            <td> <img src="IMAGENES/img23.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.23','NARANJA','IMAGENES/img23.jpg','2.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.24 </td>
+            <td>MANZANA</td>
+            <td>3.00</td>
+            <td> <img src="IMAGENES/img24.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.24','MANZANA','IMAGENES/img24.jpg','3.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.25 </td>
+            <td>LIMON</td>
+            <td>1.00 </td>
+            <td> <img src="IMAGENES/img25.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.25','LIMON','IMAGENES/img25.jpg','1.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.26 </td>
+            <td>MANDARINA</td>
+            <td>2.00 </td>
+            <td> <img src="IMAGENES/img26.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.26','MANDARINA','IMAGENES/img26.jpg','2.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.27 </td>
+            <td>FRESA</td>
+            <td>4.75 </td>
+            <td> <img src="IMAGENES/img27.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.27','FRESA','IMAGENES/img27.jpg','4.75');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.28 </td>
+            <td>CIRUELA</td>
+            <td>2.50 </td>
+            <td> <img src="IMAGENES/img28.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.28','CIRUELA','IMAGENES/img28.jpg','2.50');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.29 </td>
+            <td>PAPAYA</td>
+            <td>5.50 </td>
+            <td> <img src="IMAGENES/img29.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.29','PAPAYA','IMAGENES/img29.jpg','5.50');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.30 </td>
+            <td>MELON</td>
+            <td>10.00 </td>
+            <td> <img src="IMAGENES/img30.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.30','MELON','IMAGENES/img30.jpg','10.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.31 </td>
+            <td>PLATANO</td>
+            <td>0.50 </td>
+            <td> <img src="IMAGENES/img31.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.31','PLATANO','IMAGENES/img31.jpg','0.50');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.32 </td>
+            <td>NANCES</td>
+            <td>2.00 </td>
+            <td> <img src="IMAGENES/img32.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.32','NANCES','IMAGENES/img32.jpg','2.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.33 </td>
+            <td>UVA</td>
+            <td>8.00 </td>
+            <td> <img src="IMAGENES/img33.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.33','UVA','IMAGENES/img33.jpg','8.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.34 </td>
+            <td>PIÑA</td>
+            <td>7.00 </td>
+            <td> <img src="IMAGENES/img34.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.34','PIÑA','IMAGENES/img34.jpg','7.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.35 </td>
+            <td>MANGOS</td>
+            <td>1.00</td>
+            <td> <img src="IMAGENES/img35.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.35','MANGOS','IMAGENES/img35.jpg','1.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.36 </td>
+            <td>GRANADILLA</td>
+            <td>2.25</td>
+            <td> <img src="IMAGENES/img36.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.36','GRANADILLA','IMAGENES/img36.jpg','2.25');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.37 </td>
+            <td>GUANABA</td>
+            <td>6.00</td>
+            <td> <img src="IMAGENES/img37.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.37','GUANABA','IMAGENES/img37.jpg','6.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.38 </td>
+            <td>KIWI</td>
+            <td>2.00</td>
+            <td> <img src="IMAGENES/img38.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.38','KIWI','IMAGENES/img38.jpg','2.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.39 </td>
+            <td>ANONA</td>
+            <td>4.00</td>
+            <td> <img src="IMAGENES/img39.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.39','ANONA','IMAGENES/img39.jpg','4.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        <tr> 
+            <td> R.40 </td>
+            <td>GUAYABA</td>
+            <td>1.00</td>
+            <td> <img src="IMAGENES/img40.jpg" width="70" alt=""> </td>
+            <td hidden><label for="id"> <b> CANTIDAD: </b> </label></td>
+            <td hidden><input type="number" cantidad="cantidad" name="cantidad" class="form-control" autocomplete="off"></td>
+            <td> <button onclick="guardarRegistroDelCarrito('R.40','GUAYABA','IMAGENES/img40.jpg','1.00');"> <B>AGREGAR AL CARRITO</B> </button> </td>
+        </tr> 
+        
+<table>
+
+ <br> <br> <br>
+
+ <p> <a class="link" href="pedido.html" span style="color:red"> <b> CLICK PARA CONSULTAR EL ESTADO DE TU CARRITO Y LA SUMA TOTAL DE TU PEDIDO </b> </a> </p> 
+
+ <br> <br> <br>
+
+<div>
+
+<p> <a class="link" href="index.html" span style="color:red"> Pagina Principal  </a> </p> 
+
+</div>  
+
+</body>
+<script src="scrip.js"></script>
+</html>
